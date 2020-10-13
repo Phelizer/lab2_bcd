@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+header, footer {
+    width: 100vw;
+    height: 150px;
+    background-color: #52ACA2;
+    display: table-cell;
+    vertical-align: middle;
+    clear: both;
+}
+
+.anotherLine {
+    font-weight: bold;
+}
+
+.whitesquare1 {
+    height: 75px;
+    width: 200px;
+    background-color: white;
+    float: left;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: solid 1px black;
+    text-align: right;
+}
+
+.whitesquare1 > span {
+    line-height: 75px;
+}
+
+.anotherblock1 {
+    float: right;
+    vertical-align: middle;
+    height: 75px;
+    width: 200px;
+    text-align: right;
+}
+
+.anotherblock1 > span {
+    line-height: 75px;
+    margin-right: 5px;
+}
+
+
+.firstBlock {
+    background-color: #ffb3b3;
+    width: 21.25vw;
+    height: 800px;
+    float: left;
+}
+
+.firstDivider {
+    background-color: #ffffb3;
+    width: 5vw;
+    height: 800px;
+    float: left;
+}
+
+.secondBlock {
+    background-color: #99ff99;
+    width: 21.25vw;
+    height: 800px;
+    float: left;
+    position: relative;
+}
+
+.secondBlock > p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#upperBlock {
+    width: 47.5 vw;
+    background-color: #ffb3b3;
+    text-align: center;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.thirdBlock {
+    height: 700px;
+    position: relative;
+}
+
+#block_3_1 {
+    background-color: #ffffb3;
+    width: 21.25vw;
+    float: left;    
+}
+
+#block_3_1 > p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#block_3_2 {
+    background-color: #99ff99;
+    width: 21.25vw;
+    height: 700px;
+    display:table-cell; /*?*/
+    vertical-align: middle;
+
+}
+
+#secondDivider {
+    background-color: #ffffb3;
+    width: 5vw;
+    height: 700px;
+    float: left;
+    border: 1px solid black;
+}
+
+.whitesquare2 {
+    height: 75px;
+    width: 200px;
+    background-color: white;
+    float: right;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: solid 1px black;
+    text-align: left;
+}
+
+.whitesquare2 > span {
+    line-height: 75px;
+}
+
+.anotherblock2 {
+    float: left;
+    vertical-align: middle;
+    height: 75px;
+    width: 200px;
+    text-align: left;
+}
+
+.anotherblock2 > span {
+    line-height: 75px;
+    margin-left: 5px;
+}
